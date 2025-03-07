@@ -43,3 +43,22 @@ The following packages were updated:
   com.unity.render-pipelines.universal from version 14.0.3 to 14.0.9
   com.unity.timeline from version 1.7.1 to 1.7.6
   com.unity.visualscripting from version 1.7.8 to 1.9.1
+
+=== Fri Mar  7 12:10:49 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.shadergraph from version 14.0.8 to 14.0.9
+  com.unity.render-pipelines.universal from version 14.0.8 to 14.0.9
+  com.unity.visualeffectgraph from version 14.0.8 to 14.0.9
+
+=== Fri Mar  7 12:10:50 2025
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.shadergraph@14.0.9
+  com.unity.visualeffectgraph@14.0.9

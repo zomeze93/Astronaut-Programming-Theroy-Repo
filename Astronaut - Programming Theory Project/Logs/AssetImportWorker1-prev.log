@@ -1,0 +1,1659 @@
+Unity Editor version:    2022.3.15f1 (b58023a2b463)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.3.1 (Build 24D70)
+Darwin version:          24.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        18432 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.15f1-arm64/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/ezequiellopez/Documents/GitHub/Astronaut-Progrraming-Theroy-Repo/Astronaut - Programming Theory Project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60386
+Successfully changed project path to: /Users/ezequiellopez/Documents/GitHub/Astronaut-Progrraming-Theroy-Repo/Astronaut - Programming Theory Project
+/Users/ezequiellopez/Documents/GitHub/Astronaut-Progrraming-Theroy-Repo/Astronaut - Programming Theory Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8320944192] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 4205901511 [EditorId] 4205901511 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Ezequiel.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8320944192] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 4205901511 [EditorId] 4205901511 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Ezequiel.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 3.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.15f1-arm64/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ezequiellopez/Documents/GitHub/Astronaut-Progrraming-Theroy-Repo/Astronaut - Programming Theory Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M3 Pro (high power)
+Metal devices available: 1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.15f1-arm64/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.15f1-arm64/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.15f1-arm64/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56467
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1-arm64/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1-arm64/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1-arm64/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1-arm64/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1-arm64/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004936 seconds.
+- Loaded All Assemblies, in  0.199 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 80 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.308 seconds
+Domain Reload Profiling: 513ms
+	BeginReloadAssembly (56ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (88ms)
+		LoadAssemblies (58ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (76ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (314ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (277ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (204ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (49ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.380 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.410 seconds
+Domain Reload Profiling: 790ms
+	BeginReloadAssembly (74ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (179ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (411ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.15f1-arm64/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4968 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (368.0 KB). Loaded Objects now: 5426.
+Memory consumption went from 216.7 MB to 216.4 MB.
+Total: 2.523833 ms (FindLiveObjects: 0.122209 ms CreateObjectMapping: 0.043583 ms MarkObjects: 2.222875 ms  DeleteObjects: 0.134791 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x327f47000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.261 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.816 seconds
+Domain Reload Profiling: 1078ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (135ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (817ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (262ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (346.2 KB). Loaded Objects now: 5430.
+Memory consumption went from 199.3 MB to 199.0 MB.
+Total: 2.516208 ms (FindLiveObjects: 0.147042 ms CreateObjectMapping: 0.046333 ms MarkObjects: 2.228083 ms  DeleteObjects: 0.094459 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16e3ef000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.247 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.803 seconds
+Domain Reload Profiling: 1050ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (803ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (280ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4980 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (435.7 KB). Loaded Objects now: 5608.
+Memory consumption went from 212.2 MB to 211.7 MB.
+Total: 2.560583 ms (FindLiveObjects: 0.163792 ms CreateObjectMapping: 0.063250 ms MarkObjects: 2.216666 ms  DeleteObjects: 0.116333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17ff87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.264 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1139ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (139ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (875ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4982 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (435.8 KB). Loaded Objects now: 5626.
+Memory consumption went from 221.5 MB to 221.0 MB.
+Total: 2.789500 ms (FindLiveObjects: 0.165459 ms CreateObjectMapping: 0.069500 ms MarkObjects: 2.427792 ms  DeleteObjects: 0.126291 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17ff87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.317 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.932 seconds
+Domain Reload Profiling: 1250ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (59ms)
+			TypeCache.Refresh (40ms)
+				TypeCache.ScanAssembly (30ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (933ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (308ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5567 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (2.1 MB). Loaded Objects now: 6215.
+Memory consumption went from 248.8 MB to 246.7 MB.
+Total: 7.268875 ms (FindLiveObjects: 0.165792 ms CreateObjectMapping: 0.059333 ms MarkObjects: 6.571958 ms  DeleteObjects: 0.471334 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16dbbb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.240 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.931 seconds
+Domain Reload Profiling: 1172ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (932ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (339ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5567 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (2.1 MB). Loaded Objects now: 6231.
+Memory consumption went from 258.0 MB to 255.9 MB.
+Total: 3.346667 ms (FindLiveObjects: 0.189791 ms CreateObjectMapping: 0.057667 ms MarkObjects: 2.781000 ms  DeleteObjects: 0.317667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16dbbb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.222 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.970 seconds
+Domain Reload Profiling: 1192ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (105ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (311ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (225ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5567 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (2.1 MB). Loaded Objects now: 6247.
+Memory consumption went from 267.2 MB to 265.2 MB.
+Total: 3.870833 ms (FindLiveObjects: 0.201250 ms CreateObjectMapping: 0.059000 ms MarkObjects: 3.009250 ms  DeleteObjects: 0.600875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 666949.111650 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Antenna_BaseColor.png
+  artifactKey: Guid(3c23a12345f5a3840ae8dbd3aebf2386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Antenna_BaseColor.png using Guid(3c23a12345f5a3840ae8dbd3aebf2386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70f6b475d5a7e5672dc61ad19e6084b') in 0.113556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Antenna_Emission.png
+  artifactKey: Guid(2e0170496d7e1af459265f229576a893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Antenna_Emission.png using Guid(2e0170496d7e1af459265f229576a893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ce5182653f6a1eef4e9c6d6359010f') in 0.013066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Planet Textures/Planet_Texture_01.png
+  artifactKey: Guid(57b51535e90018c47b5e808c6c1717f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Planet Textures/Planet_Texture_01.png using Guid(57b51535e90018c47b5e808c6c1717f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a731c0640bed54aea1eb7ebb92904516') in 0.007245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_AlbedoTransparency.png
+  artifactKey: Guid(71fbf316b5c65e74b9fa5cdc5a27a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_AlbedoTransparency.png using Guid(71fbf316b5c65e74b9fa5cdc5a27a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d15d27c28f9974b9204c9d839511912') in 0.007648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Base_Normal.png
+  artifactKey: Guid(8bbb7e3cca12b7249aa770998f862945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Base_Normal.png using Guid(8bbb7e3cca12b7249aa770998f862945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd96559b1045d90828783c5ea851c58') in 0.049151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Base_Normal.png
+  artifactKey: Guid(52ddd5f84bdedf844aaca781db43f71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Base_Normal.png using Guid(52ddd5f84bdedf844aaca781db43f71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89671c96df0cab16796247da9e22fb38') in 0.005862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Base_AlbedoTransparency.png
+  artifactKey: Guid(6dbe8656a4fcb214e9fd7c26958128c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Base_AlbedoTransparency.png using Guid(6dbe8656a4fcb214e9fd7c26958128c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc3340ff9da8155678b0bd5fbaae2c9') in 0.005814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Antenna_Displacement.png
+  artifactKey: Guid(2cfe0f2cc2292a441943253b86d9ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Antenna_Displacement.png using Guid(2cfe0f2cc2292a441943253b86d9ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dde7bf9ec6e91fcf2bb3c5d18f65b4') in 0.005014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Base_Emission.png
+  artifactKey: Guid(5730cc5484e165c41ac14338473478b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Base_Emission.png using Guid(5730cc5484e165c41ac14338473478b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c79318f09720349025dc28062ced23') in 0.003966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_Emission.png
+  artifactKey: Guid(e509f759c8016d64e98f3dc31610029e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_Emission.png using Guid(e509f759c8016d64e98f3dc31610029e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc403bb240c8155263ea656ac337493') in 0.003973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_Emission.png
+  artifactKey: Guid(a3aa7be17ab03784face3a344719853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_Emission.png using Guid(a3aa7be17ab03784face3a344719853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2174589a03ac5981ebefbd9bd92753a3') in 0.009450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_AlbedoTransparency.png
+  artifactKey: Guid(061f11c4ee1dc7e4abe925455cd4d52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_AlbedoTransparency.png using Guid(061f11c4ee1dc7e4abe925455cd4d52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36af57116a8984fac5bdd0df371a70e') in 0.005310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Base_Normal.png
+  artifactKey: Guid(4a6eca0bb3937b04ea1a6c54f542a3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Base_Normal.png using Guid(4a6eca0bb3937b04ea1a6c54f542a3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09547c13368fee863d504dda4500e9bd') in 0.007551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_MetallicSmoothness.png
+  artifactKey: Guid(76e860170ac7eea46baa4da2d8dc42ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_MetallicSmoothness.png using Guid(76e860170ac7eea46baa4da2d8dc42ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afb3ab44256d6806dac5e6a76167f27') in 0.010341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_MetallicSmoothness.png
+  artifactKey: Guid(cee810b1f1fdc2441907a63680dc3fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_MetallicSmoothness.png using Guid(cee810b1f1fdc2441907a63680dc3fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5823f4c22f321dfbf0a7f305f57c736') in 0.009181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_AlbedoTransparency.png
+  artifactKey: Guid(3c5d52adbf151194a808c40d791a9d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_AlbedoTransparency.png using Guid(3c5d52adbf151194a808c40d791a9d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa6af3ff9c6b28c506af5f18e278059') in 0.006911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Prototype Textures/ProtoType_green.png
+  artifactKey: Guid(45a5787c152254b4b98358bf0ac4e7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Prototype Textures/ProtoType_green.png using Guid(45a5787c152254b4b98358bf0ac4e7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54be9fb16b90fa4a470b32c595a5db9') in 0.005718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_MetallicSmoothness.png
+  artifactKey: Guid(39dc5989891e05040b3a67ca20ded0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_MetallicSmoothness.png using Guid(39dc5989891e05040b3a67ca20ded0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c428e18359e7d995d4551f3315bfa99a') in 0.009660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Base Hull_Displacement.png
+  artifactKey: Guid(ae8c1f6327add1440bdb09e8b9907e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Base Hull_Displacement.png using Guid(ae8c1f6327add1440bdb09e8b9907e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5656966ba07d1502aad2d16221bd6d') in 0.007539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Base_MetallicSmoothness.png
+  artifactKey: Guid(b5d6a5ca607af204b8107f5dd2fe4edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Base_MetallicSmoothness.png using Guid(b5d6a5ca607af204b8107f5dd2fe4edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fed59ed88fa8a71729d940c80a437a') in 0.009149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Base_AlbedoTransparency.png
+  artifactKey: Guid(8172a5e234f9e6e4dbd7ba0388b8d871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Base_AlbedoTransparency.png using Guid(8172a5e234f9e6e4dbd7ba0388b8d871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c0da410cdc6c35b82308fcb1544193') in 0.007222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Base_AlbedoTransparency.png
+  artifactKey: Guid(9d2d4e1088b97b940ac3309c10ce6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Base_AlbedoTransparency.png using Guid(9d2d4e1088b97b940ac3309c10ce6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2fb9cfb57c1ab9472c5193798b0b81') in 0.005390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Base_MetallicSmoothness.png
+  artifactKey: Guid(63be4ebe76d85ae4ca00b0c81b39695c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Base_MetallicSmoothness.png using Guid(63be4ebe76d85ae4ca00b0c81b39695c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f783c6915da2e3fc1f17cdd9e9cda0f5') in 0.010200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Base_Emission.png
+  artifactKey: Guid(7f0193f1dbc10074b9e276ff1d6c501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Base_Emission.png using Guid(7f0193f1dbc10074b9e276ff1d6c501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0d6b23dfaa18f8cee7fbdf7ae1d609') in 0.003980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Prototype Textures/ProtoType_pink.png
+  artifactKey: Guid(c760f33ef4a784b4ca45767ea680c89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Prototype Textures/ProtoType_pink.png using Guid(c760f33ef4a784b4ca45767ea680c89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ebf0730f420e090390ad1cd1e18507') in 0.003216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Base_AlbedoTransparency.png
+  artifactKey: Guid(b6f29cfe3c2695f41b1afca91e34731e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Base_AlbedoTransparency.png using Guid(b6f29cfe3c2695f41b1afca91e34731e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f738c082aac9c57bf8557ce32b498060') in 0.009519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Prototype Textures/ProtoType_purple.png
+  artifactKey: Guid(363f3c563947dbc4da25953e18c3ad7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Prototype Textures/ProtoType_purple.png using Guid(363f3c563947dbc4da25953e18c3ad7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686600c2ab95857eecdb0256c304df6c') in 0.004433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_AlbedoTransparency.png
+  artifactKey: Guid(2c7f3210e20380e4f85406331a2a5074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_AlbedoTransparency.png using Guid(2c7f3210e20380e4f85406331a2a5074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbb4df73306e8be5adac7c06814d7e0') in 0.008329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Base_MetallicSmoothness.png
+  artifactKey: Guid(9458d77af33c64c4da0004d307bc0476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Base_MetallicSmoothness.png using Guid(9458d77af33c64c4da0004d307bc0476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7a46f452f79781043ad8388c12614b') in 0.007028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Asteroid Textures/Asteroid Base_Alpha.png
+  artifactKey: Guid(ac944e453bfc5d440b4bc9b9062bac8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Asteroid Textures/Asteroid Base_Alpha.png using Guid(ac944e453bfc5d440b4bc9b9062bac8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6d93c75a8127fe4701a0c9b1a4693d') in 0.008451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Base_AlbedoTransparency.png
+  artifactKey: Guid(4efd5ff42802d1e41a070a503bdc7b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Base_AlbedoTransparency.png using Guid(4efd5ff42802d1e41a070a503bdc7b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15608dd0063d3daf381bb4f89c055ea') in 0.005225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Base_Normal.png
+  artifactKey: Guid(ecba0c8f4e0258241ad85023daa788d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Base_Normal.png using Guid(ecba0c8f4e0258241ad85023daa788d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8766b47addf24a396feca26ff8403977') in 0.007024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Base_Emission.png
+  artifactKey: Guid(6c1231acdc237694d85efaa16c9cf77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Base_Emission.png using Guid(6c1231acdc237694d85efaa16c9cf77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8be69f62b4fbe185220603a32e5ae90') in 0.003995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Base Hull_Metallic.png
+  artifactKey: Guid(fdf4bd8f21fd37640b593e7cfc9e2d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Base Hull_Metallic.png using Guid(fdf4bd8f21fd37640b593e7cfc9e2d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d0c08725671a96ff353621d8a28576') in 0.006960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Asteroid Textures/Asteroid Base_Roughness.png
+  artifactKey: Guid(47b73d89050d2b6469d17608df2f02a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Asteroid Textures/Asteroid Base_Roughness.png using Guid(47b73d89050d2b6469d17608df2f02a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4a6f9d33f69e7fe4ad1b696dab5460') in 0.007591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_Emission.png
+  artifactKey: Guid(e0810d7c284bf86469949c467b6cd5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_Emission.png using Guid(e0810d7c284bf86469949c467b6cd5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1654cd2389114bd52e44a7bf7bc35ac') in 0.005688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.762609 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_MetallicSmoothness.png
+  artifactKey: Guid(893aa3ea012a4b64282f8bd3901ae071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_MetallicSmoothness.png using Guid(893aa3ea012a4b64282f8bd3901ae071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8915c2fcaffefe33df90502ca34bec3') in 0.097252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_Normal.png
+  artifactKey: Guid(a4d7567ad1408eb41b0051916ac8d673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_Normal.png using Guid(a4d7567ad1408eb41b0051916ac8d673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ebcf66ea2ad7952edbf01b475f3a62') in 0.013232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Boarding Ladder Metal_AlbedoTransparency.png
+  artifactKey: Guid(65c2bc7430fd1694389c05fe6fd9f221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Boarding Ladder Metal_AlbedoTransparency.png using Guid(65c2bc7430fd1694389c05fe6fd9f221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a022c6251ae1774335329325d1acf4') in 0.009635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_Normal.png
+  artifactKey: Guid(db68dd0dd5d2cef4d9e8fc04a27e54e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Boarding Ladder Handle_Normal.png using Guid(db68dd0dd5d2cef4d9e8fc04a27e54e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e4d09babc587785de687883dc22872') in 0.005349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.430879 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Boarding Ladder Metal_AlbedoTransparency.png
+  artifactKey: Guid(14cba3653f4948d4fb2f684c87259786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Boarding Ladder Metal_AlbedoTransparency.png using Guid(14cba3653f4948d4fb2f684c87259786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7df36a554ad7e7e1f43cccaa6f2c2c') in 0.011174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Boarding Ladder Metal_AlbedoTransparency.png
+  artifactKey: Guid(418cb205e940bb048b684774ab9d08a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Boarding Ladder Metal_AlbedoTransparency.png using Guid(418cb205e940bb048b684774ab9d08a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088f20a41ac5b1dc9c3ff49c92d68766') in 0.008203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Boarding Ladder Metal_Emission.png
+  artifactKey: Guid(a8320707f2cbeb447b09766ab00ccc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Boarding Ladder Metal_Emission.png using Guid(a8320707f2cbeb447b09766ab00ccc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a484603cc323cdd0dc2d8b13228b147e') in 0.005966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Boarding Ladder Metal_Emission.png
+  artifactKey: Guid(cb868676ed0367f4b9b376c13f0ade08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Boarding Ladder Metal_Emission.png using Guid(cb868676ed0367f4b9b376c13f0ade08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ba05790d47abbf881cd1b2a1e1fb29') in 0.005175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.266696 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Weapon Systems Mount A_AlbedoTransparency.png
+  artifactKey: Guid(adbd560dba17b334d8d38389d79fc08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Weapon Systems Mount A_AlbedoTransparency.png using Guid(adbd560dba17b334d8d38389d79fc08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3936df93983f84669780654a8afd0a6') in 0.011717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_Normal.png
+  artifactKey: Guid(c0da742f8db977a468726d4bf0c5e6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_Normal.png using Guid(c0da742f8db977a468726d4bf0c5e6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3624c4ece652ab2acb4e9019244ab342') in 0.016154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_Emission.png
+  artifactKey: Guid(61d1077a198277a489a9f7579c5562b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_Emission.png using Guid(61d1077a198277a489a9f7579c5562b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2b805f20be8a5f5ad02751116b216e') in 0.007362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_MetallicSmoothness.png
+  artifactKey: Guid(ed735cc936176a54f915ce7021f9ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_MetallicSmoothness.png using Guid(ed735cc936176a54f915ce7021f9ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfb80a456eaa77deb0b46467ce6aeb5') in 0.005963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_MetallicSmoothness.png
+  artifactKey: Guid(eacf14105c7e61849b71c0cc84c20f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_MetallicSmoothness.png using Guid(eacf14105c7e61849b71c0cc84c20f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbe96e36a3af3f58775c6e1149a51d7') in 0.005408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_Normal.png
+  artifactKey: Guid(ebab534913c8da14fb5dc67e4138cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_Normal.png using Guid(ebab534913c8da14fb5dc67e4138cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ef144683567dd0e99c66082f1c92a3') in 0.004339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Wing Base_AlbedoTransparency.png
+  artifactKey: Guid(02cd17f8a1a34d3488af874871e6b743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Wing Base_AlbedoTransparency.png using Guid(02cd17f8a1a34d3488af874871e6b743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e809b4ca80da469fe173f87368eea1b') in 0.005548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Wing Base_Emission.png
+  artifactKey: Guid(5470e9fefbeb0e24294c2683da29d147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Wing Base_Emission.png using Guid(5470e9fefbeb0e24294c2683da29d147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7850fa13f42da8d677cfbe0abab87d2f') in 0.004871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_Emission.png
+  artifactKey: Guid(157d79bfee7ad4144be2df9e117bf9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_Emission.png using Guid(157d79bfee7ad4144be2df9e117bf9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2500fe6dfc3df54a2a2c176c2c411c') in 0.004752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Wing Base_Emission.png
+  artifactKey: Guid(1716d3b967148f549b9b579d824d0863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Wing Base_Emission.png using Guid(1716d3b967148f549b9b579d824d0863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5705c4247b002b3a82262bda92b1ea') in 0.003850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_MetallicSmoothness.png
+  artifactKey: Guid(75f5edd68dcb4d8499428f0feac7e677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_MetallicSmoothness.png using Guid(75f5edd68dcb4d8499428f0feac7e677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18203f053c56fa697841623150179d3f') in 0.005609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Weapon Systems Mount A_Normal.png
+  artifactKey: Guid(c12a79ff7fc4a814fb1d4a194bfb7494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Weapon Systems Mount A_Normal.png using Guid(c12a79ff7fc4a814fb1d4a194bfb7494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3e19d520467084e1d296705633de3b') in 0.004266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_MetallicSmoothness.png
+  artifactKey: Guid(27f00f88309054c4a8a1fda08daae39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_MetallicSmoothness.png using Guid(27f00f88309054c4a8a1fda08daae39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c7a5cf9615f323e9389f1bdcab7759') in 0.005192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Wing Base_AlbedoTransparency.png
+  artifactKey: Guid(cd6e3416674b1d7479ee5bc4ce9b9d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Wing Base_AlbedoTransparency.png using Guid(cd6e3416674b1d7479ee5bc4ce9b9d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad265473e8e65a6b8ad12baebad031e') in 0.004674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_AlbedoTransparency.png
+  artifactKey: Guid(e2dd1936400273947a49ae92c70e1bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_AlbedoTransparency.png using Guid(e2dd1936400273947a49ae92c70e1bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9796d1bbff91612bc64c99f46ba7a201') in 0.004119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Weapon Systems Mount A_Emission.png
+  artifactKey: Guid(594cde344f5143a47a962a3781300b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Weapon Systems Mount A_Emission.png using Guid(594cde344f5143a47a962a3781300b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87a963990365334a2b4ab4214f1f075') in 0.004183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Wing Base_AlbedoTransparency.png
+  artifactKey: Guid(ce56cd29c673c8943adf2ecad14d7a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Wing Base_AlbedoTransparency.png using Guid(ce56cd29c673c8943adf2ecad14d7a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101085fba70afb860e77f192f79f3c1e') in 0.006020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Wing Base_Emission.png
+  artifactKey: Guid(f8c5a1702b050b34090f308dd07199cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Wing Base_Emission.png using Guid(f8c5a1702b050b34090f308dd07199cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3a992912eb092253cd5810630dd118') in 0.004224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_AlbedoTransparency.png
+  artifactKey: Guid(5e46ba9596e62ff408a1bbe5065679c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_AlbedoTransparency.png using Guid(5e46ba9596e62ff408a1bbe5065679c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b762b5d60ab2de0f344bef4998d58ee0') in 0.004324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Weapon Systems Mount A_Normal.png
+  artifactKey: Guid(b756428c4754bae4a8977139a24fb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Weapon Systems Mount A_Normal.png using Guid(b756428c4754bae4a8977139a24fb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33623d7c5f09c03015f67622e6c75ef4') in 0.005993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_MetallicSmoothness.png
+  artifactKey: Guid(54f2caec7aa87404bb56f10fbf213699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_MetallicSmoothness.png using Guid(54f2caec7aa87404bb56f10fbf213699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8d19156e642f6f113f482c888c4de8') in 0.005198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Weapon Systems Mount A_Emission.png
+  artifactKey: Guid(86d8d6b8f148d8848a43d1f7e6665c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Weapon Systems Mount A_Emission.png using Guid(86d8d6b8f148d8848a43d1f7e6665c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864b98bf0d4ca5851aa13765865af166') in 0.005100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_MetallicSmoothness.png
+  artifactKey: Guid(5c494724d3d276f449bc518031b9fda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_MetallicSmoothness.png using Guid(5c494724d3d276f449bc518031b9fda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbed7d77c48d3a7f704565d77ff9fde') in 0.004710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Weapon Systems Mount A_Normal.png
+  artifactKey: Guid(6b3e3e0206ad3f04ba03fb4c951d3d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Weapon Systems Mount A_Normal.png using Guid(6b3e3e0206ad3f04ba03fb4c951d3d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab3d520fe2b24f892e9dca24ba5cfc5') in 0.005832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_AlbedoTransparency.png
+  artifactKey: Guid(d3482c4cd05f85e44bd9b42ce85e88c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Weapon Systems Mount B_AlbedoTransparency.png using Guid(d3482c4cd05f85e44bd9b42ce85e88c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b692b8fd87ca8cf38d95a68d523c125') in 0.004475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.304465 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Wing Base_Normal.png
+  artifactKey: Guid(2f03fd15b4c858b418d9eb509f654600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Wing Base_Normal.png using Guid(2f03fd15b4c858b418d9eb509f654600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbc7369dee67fc10cb52b290a092b55') in 0.012333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Wing Highlight A_MetallicSmoothness.png
+  artifactKey: Guid(9e6464caef18018408b19d770500031d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Wing Highlight A_MetallicSmoothness.png using Guid(9e6464caef18018408b19d770500031d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f8df88ec75cf0fc6d14c82063386cd') in 0.008432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Wing Highlight A_AlbedoTransparency.png
+  artifactKey: Guid(96888fc4f85fa514c991bc515e7d79cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Wing Highlight A_AlbedoTransparency.png using Guid(96888fc4f85fa514c991bc515e7d79cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515f176be3c0ea232635f783222a685c') in 0.004932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Windows_Emission.png
+  artifactKey: Guid(cbd35f2d0ce47254b9dbdfbbc7e1f925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Windows_Emission.png using Guid(cbd35f2d0ce47254b9dbdfbbc7e1f925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554e92113e1a3c695d3652e1647c288e') in 0.004887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Wing Highlight A_MetallicSmoothness.png
+  artifactKey: Guid(7d974c730b048de4aa16550c0b3e312b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Wing Highlight A_MetallicSmoothness.png using Guid(7d974c730b048de4aa16550c0b3e312b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512efd1453977a4c2784646320ce3215') in 0.004490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Wing Highlight A_Normal.png
+  artifactKey: Guid(10e9fd231232a8844ac454258c813f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Wing Highlight A_Normal.png using Guid(10e9fd231232a8844ac454258c813f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab15a03bcc4a0135be5907dd50eeb668') in 0.007668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Windows_Displacement.png
+  artifactKey: Guid(2958f60567c232c46a5a02c2193181f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Windows_Displacement.png using Guid(2958f60567c232c46a5a02c2193181f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbf40a5ede3364e18a22f59fcc2f2ce') in 0.004444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Wing Highlight A_Normal.png
+  artifactKey: Guid(80fa344ac9d84744da3c21bcba77a1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Wing Highlight A_Normal.png using Guid(80fa344ac9d84744da3c21bcba77a1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd5e50e8ea7781cae10958f7e166245') in 0.007626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Windows_Metallic.png
+  artifactKey: Guid(4792d2e120f2c49438d19be99d18aec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Windows_Metallic.png using Guid(4792d2e120f2c49438d19be99d18aec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c5a40d720d2ffdfe306f44dbd0a79a') in 0.005231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Wing Highlight A_AlbedoTransparency.png
+  artifactKey: Guid(7d50a6de573e32644814004701aedc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Wing Highlight A_AlbedoTransparency.png using Guid(7d50a6de573e32644814004701aedc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65c72ac3d03448230c578adb1aefddd') in 0.006356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Windows_Alpha.png
+  artifactKey: Guid(444d42c96761e134196a463bbbbde2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Station Textures/Windows_Alpha.png using Guid(444d42c96761e134196a463bbbbde2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b12de86f6fcc666a0b7d79dcb309e3') in 0.004029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Wing Highlight A_Emission.png
+  artifactKey: Guid(0feb57d02f2cc984fa3aef01f00ccdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Wing Highlight A_Emission.png using Guid(0feb57d02f2cc984fa3aef01f00ccdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c40f3993564f69e7128e8698ff9820') in 0.010255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Wing Highlight A_MetallicSmoothness.png
+  artifactKey: Guid(4999b725223d2d245a5de3e6270550be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Wing Highlight A_MetallicSmoothness.png using Guid(4999b725223d2d245a5de3e6270550be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248ea7dc4de1733189d34104692df812') in 0.004556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Wing Highlight A_Emission.png
+  artifactKey: Guid(83d6754c2fe700649b3a26115f74e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Wing Highlight A_Emission.png using Guid(83d6754c2fe700649b3a26115f74e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd12ccfd357ccd8d7186a1ae0a8cee8') in 0.005665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Wing Highlight A_Normal.png
+  artifactKey: Guid(ca828264ad602374abe889552effb9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Wing Highlight A_Normal.png using Guid(ca828264ad602374abe889552effb9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0741465b839a0670e6ff6b3f3d2a26') in 0.003572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.197514 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Turret G_MetallicSmoothness.png
+  artifactKey: Guid(bcb3c395ec7ab8042ae070bc29f3d941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Turret G_MetallicSmoothness.png using Guid(bcb3c395ec7ab8042ae070bc29f3d941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06febb429a465571952563b24e3da005') in 0.027367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Turret F_Normal.png
+  artifactKey: Guid(c838359d725d0b540bdf5c72f0186019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Turret F_Normal.png using Guid(c838359d725d0b540bdf5c72f0186019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a3d40f6f8be3659d8e3a65618213aa') in 0.007108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret F_Normal.png
+  artifactKey: Guid(6fd86ac32cad0b945b0ac52167dba9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret F_Normal.png using Guid(6fd86ac32cad0b945b0ac52167dba9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52656c0c4aebd2b981b8085fe2c4b10') in 0.004248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret F_MetallicSmoothness.png
+  artifactKey: Guid(db51daf15e9ac4c44ab9c027e9f447e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret F_MetallicSmoothness.png using Guid(db51daf15e9ac4c44ab9c027e9f447e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc194dd5044e115f1ae7548f6e2a1795') in 0.006057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret G_Normal.png
+  artifactKey: Guid(ffab6049cbd82cd469af33d4f7d584ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret G_Normal.png using Guid(ffab6049cbd82cd469af33d4f7d584ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6896d56d62da309c3fd7a933cc91fbb0') in 0.003943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret G_AlbedoTransparency.png
+  artifactKey: Guid(10cd8d8ea30a89448916c4d7a0c81e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret G_AlbedoTransparency.png using Guid(10cd8d8ea30a89448916c4d7a0c81e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763467adf3b2134fc7d5599af8f617be') in 0.005387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret G_AlbedoTransparency.png
+  artifactKey: Guid(65f80573e4b3b94408ae97e43197ee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret G_AlbedoTransparency.png using Guid(65f80573e4b3b94408ae97e43197ee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a8875d0872147d359648d106092aac') in 0.004283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret G_Emission.png
+  artifactKey: Guid(d1dd5e6883af179418336cb13e803370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret G_Emission.png using Guid(d1dd5e6883af179418336cb13e803370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0d973b65ef4d5b9e2535e6c83c3e0b') in 0.007516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Turret G_Emission.png
+  artifactKey: Guid(cdfde5c5fab0b9744978a668ed8265cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Turret G_Emission.png using Guid(cdfde5c5fab0b9744978a668ed8265cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17291e9df0f799fd2cc91a71f4b71ba6') in 0.004339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret G_MetallicSmoothness.png
+  artifactKey: Guid(eb73c655105447b479ab713b76015f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret G_MetallicSmoothness.png using Guid(eb73c655105447b479ab713b76015f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03c2a2c2f25431418ac8e9a216edef6') in 0.004334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret G_Emission.png
+  artifactKey: Guid(d11618a29acb30849adb4165a70ec9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret G_Emission.png using Guid(d11618a29acb30849adb4165a70ec9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20029706be66a324a3133bf80f30318a') in 0.003943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Turret F_MetallicSmoothness.png
+  artifactKey: Guid(62a1892a7e1754246a1cfda12b4cc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Turret F_MetallicSmoothness.png using Guid(62a1892a7e1754246a1cfda12b4cc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f73b9fed201c5a4f8a9d57d77b42183') in 0.004819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Turret G_Emission.png
+  artifactKey: Guid(868dd276a4acbe147b7b3878671b8ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Turret G_Emission.png using Guid(868dd276a4acbe147b7b3878671b8ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facc0dfd92ede56a77db7718426eb6fe') in 0.005251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret F_MetallicSmoothness.png
+  artifactKey: Guid(880a961924c71bb47980fc7731c48d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret F_MetallicSmoothness.png using Guid(880a961924c71bb47980fc7731c48d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dcf1c9d696a345f1694735c71a51ba') in 0.005298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.102754 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Turret F_AlbedoTransparency.png
+  artifactKey: Guid(0db0bb172b249754490d8a697cd584b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Turret F_AlbedoTransparency.png using Guid(0db0bb172b249754490d8a697cd584b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abf6f0a890276f4e4804525152064fd') in 0.006934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret F_Emission.png
+  artifactKey: Guid(10dac282213e37c4e9a90a99a13a8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret F_Emission.png using Guid(10dac282213e37c4e9a90a99a13a8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfc961ff453874b67d9a96ab6493f08') in 0.005664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Turret F_Emission.png
+  artifactKey: Guid(22b9bb62293656f498148ae81ba4d41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Turret F_Emission.png using Guid(22b9bb62293656f498148ae81ba4d41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92389609bbf7400af69b35cd079433ba') in 0.004443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret F_Emission.png
+  artifactKey: Guid(235fdbe069247b34c9cf8765cbf9f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret F_Emission.png using Guid(235fdbe069247b34c9cf8765cbf9f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850190f1461c01717d00ee58e49d8ad4') in 0.006098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011851 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret E_Emission.png
+  artifactKey: Guid(65e0608f21ebe02478696f0e661bfc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret E_Emission.png using Guid(65e0608f21ebe02478696f0e661bfc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe58123fffa7a4ab6d5d0111118752dc') in 0.009597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Turret E_MetallicSmoothness.png
+  artifactKey: Guid(70d7885422ae4304699f5b7b0741eb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Turret E_MetallicSmoothness.png using Guid(70d7885422ae4304699f5b7b0741eb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7a619999dff56d7105faed8350ac6f') in 0.005438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret E_Emission.png
+  artifactKey: Guid(1007d3f989b109a4991fa5b207dbe536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret E_Emission.png using Guid(1007d3f989b109a4991fa5b207dbe536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf45c495b7a59ee9aa970fca8a8a98c') in 0.007720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret E_Normal.png
+  artifactKey: Guid(f4d8fad6b53386141aa006964bdf4bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret E_Normal.png using Guid(f4d8fad6b53386141aa006964bdf4bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e486e086cba9f9a640f47a211a65ad') in 0.004673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret D_Normal.png
+  artifactKey: Guid(bd75cd4ba4c0baa4199ca74243c5d726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret D_Normal.png using Guid(bd75cd4ba4c0baa4199ca74243c5d726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913ac3f97e4f8df1cd6ffa79859f5580') in 0.005085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret E_AlbedoTransparency.png
+  artifactKey: Guid(3091fe47b32836040968e89a84ec506b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret E_AlbedoTransparency.png using Guid(3091fe47b32836040968e89a84ec506b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8451e1006fc69fe1ae2f39db472f7b50') in 0.009619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret E_MetallicSmoothness.png
+  artifactKey: Guid(59906b95f48c8134e8c9dbf83245e2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret E_MetallicSmoothness.png using Guid(59906b95f48c8134e8c9dbf83245e2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62d29c9f7fd0e95458f5561b60c43d4') in 0.004308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Turret E_Emission.png
+  artifactKey: Guid(b4b054f6549e8c84eaf9273f7cba11d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Turret E_Emission.png using Guid(b4b054f6549e8c84eaf9273f7cba11d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31df1faef8f13218a8f317ee000c179a') in 0.007416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Turret E_Emission.png
+  artifactKey: Guid(73e8009a4876653478350dc867583510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Turret E_Emission.png using Guid(73e8009a4876653478350dc867583510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344b0873336aefd179fe667acad6cc3f') in 0.003530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Turret E_AlbedoTransparency.png
+  artifactKey: Guid(d74df1ee80a60314cad17ecf99c490dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Turret E_AlbedoTransparency.png using Guid(d74df1ee80a60314cad17ecf99c490dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18a051ccb710b5303cfa2ca63a22990') in 0.003574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Turret D_Normal.png
+  artifactKey: Guid(d964447bea2d5cd4ab4cc058d9c1f9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Turret D_Normal.png using Guid(d964447bea2d5cd4ab4cc058d9c1f9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15057b6b6f8c07db7d68936f46ac0bd3') in 0.010463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.143021 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Turret D_MetallicSmoothness.png
+  artifactKey: Guid(309fcddcd1eddb842a9aeb781bf76a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 8/spaceship_01_alt_SP_TEST_Turret D_MetallicSmoothness.png using Guid(309fcddcd1eddb842a9aeb781bf76a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcbc85eab1cf89a4b9e3b81f6287d96') in 0.011270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret D_MetallicSmoothness.png
+  artifactKey: Guid(0800961e76654bb4fa9520755417ca58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret D_MetallicSmoothness.png using Guid(0800961e76654bb4fa9520755417ca58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecfc4e7c76ab2653096875d3ab80076') in 0.008809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret C_MetallicSmoothness.png
+  artifactKey: Guid(01bde94775c254e4bbe45d94476b19ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret C_MetallicSmoothness.png using Guid(01bde94775c254e4bbe45d94476b19ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9a2860491f0403592cc13c7408aed0') in 0.007433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret C_MetallicSmoothness.png
+  artifactKey: Guid(a96b1749ac662a040acbe4766f1e885e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret C_MetallicSmoothness.png using Guid(a96b1749ac662a040acbe4766f1e885e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3307d9722d6b669116b798b4f72a95d') in 0.004468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret D_Emission.png
+  artifactKey: Guid(1e3dc8e5872178f44af5bdf06936c274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret D_Emission.png using Guid(1e3dc8e5872178f44af5bdf06936c274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f437a1d97029d35683395ddb3af2d3') in 0.009306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret D_MetallicSmoothness.png
+  artifactKey: Guid(b782cccc71a9c914198bbe05b1504342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret D_MetallicSmoothness.png using Guid(b782cccc71a9c914198bbe05b1504342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9a2376d134ba732bccbccaeb4bdf2f') in 0.004377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Turret D_AlbedoTransparency.png
+  artifactKey: Guid(5cff2b2603b53e646bcb6fd4594e9043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 4/spaceship_01_alt_SP_TEST_Turret D_AlbedoTransparency.png using Guid(5cff2b2603b53e646bcb6fd4594e9043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2e9bf948d171c69572b6249abbd7ae') in 0.005484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret B_Normal.png
+  artifactKey: Guid(c7d5e5ebb79443c49b9ce9f4a61f2676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret B_Normal.png using Guid(c7d5e5ebb79443c49b9ce9f4a61f2676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ba0338deedbfcc889a230a5739ddd3') in 0.005859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Turret C_AlbedoTransparency.png
+  artifactKey: Guid(0f0825a1d4a5d1647af251151604618e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 7/spaceship_01_alt_SP_TEST_Turret C_AlbedoTransparency.png using Guid(0f0825a1d4a5d1647af251151604618e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e52a36f3d86f4a8b2eaee640bb8e7e') in 0.004076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret D_Normal.png
+  artifactKey: Guid(a0ffa93dd5f8d394f9c787b16f0a7673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret D_Normal.png using Guid(a0ffa93dd5f8d394f9c787b16f0a7673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151e3fca0e4b971557e5440c9e6d5cc0') in 0.007099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret D_AlbedoTransparency.png
+  artifactKey: Guid(1b59e46ae2bed054698de7d8757ca9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret D_AlbedoTransparency.png using Guid(1b59e46ae2bed054698de7d8757ca9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f962daa3b6e62e4a45889979e9f271') in 0.003984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret D_MetallicSmoothness.png
+  artifactKey: Guid(3d562e75bbaed6446afa56ddad11afd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret D_MetallicSmoothness.png using Guid(3d562e75bbaed6446afa56ddad11afd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762c2779ba1172fc10e0a9d23fe9358e') in 0.010884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret C_AlbedoTransparency.png
+  artifactKey: Guid(05646965071cfbb48825dd87a62ad29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret C_AlbedoTransparency.png using Guid(05646965071cfbb48825dd87a62ad29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35124997134ad0626902a0abf16ffba') in 0.004575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret C_AlbedoTransparency.png
+  artifactKey: Guid(fc8d8936320eaba4fbf74d9231f523f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 6/spaceship_01_alt_SP_TEST_Turret C_AlbedoTransparency.png using Guid(fc8d8936320eaba4fbf74d9231f523f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3856d4e974f03cdda496956142546481') in 0.008268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret C_MetallicSmoothness.png
+  artifactKey: Guid(dd0cb7daa0710b34791351e75d3194d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 1/spaceship_01_alt_SP_TEST_Turret C_MetallicSmoothness.png using Guid(dd0cb7daa0710b34791351e75d3194d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bec37edad58d3d5166bd943ab4b53cc') in 0.004986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret C_AlbedoTransparency.png
+  artifactKey: Guid(d87150373c558c84ab6d3a1dc0315a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret C_AlbedoTransparency.png using Guid(d87150373c558c84ab6d3a1dc0315a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9ca412b55e3cc3947c113de28f09f3') in 0.008450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret C_Emission.png
+  artifactKey: Guid(69983a5e772b1144d82cbb35b56974ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 3/spaceship_01_alt_SP_TEST_Turret C_Emission.png using Guid(69983a5e772b1144d82cbb35b56974ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a080e925567b1f58999be847e36033d7') in 0.004431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret C_Normal.png
+  artifactKey: Guid(30a5863b1d08981428009dfbe50b5f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret C_Normal.png using Guid(30a5863b1d08981428009dfbe50b5f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b182c9e41dc06507da85318f6872f2') in 0.010455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret B_Normal.png
+  artifactKey: Guid(ed6c68ca824f3f947a859c8c2f928e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mwester Studios/Simple Space Starter Kit/Textures/Texture Set 5/spaceship_01_alt_SP_TEST_Turret B_Normal.png using Guid(ed6c68ca824f3f947a859c8c2f928e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69dd8e1d590f45b4397ba8b2a5f599a') in 0.003868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
